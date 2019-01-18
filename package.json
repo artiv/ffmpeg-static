@@ -10,7 +10,7 @@
   "scripts": {
     "build": "./build/index.sh",
     "test": "node_modules/.bin/tape test/*.js",
-    "postInstall": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
