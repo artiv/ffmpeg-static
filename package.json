@@ -10,7 +10,7 @@
   "scripts": {
     "build": "./build/index.sh",
     "test": "node_modules/.bin/tape test/*.js",
-    "prepublishOnly": "npm run build && npm test"
+    "postInstall": "npm run build"
   },
   "repository": {
     "type": "git",
