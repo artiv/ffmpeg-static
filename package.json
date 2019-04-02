@@ -6,7 +6,8 @@
   "files": [
     "index.js",
     "bin",
-    "build"
+    "build",
+    "ffmpeg"
   ],
   "scripts": {
     "build": "./build/index.sh",
